@@ -1,0 +1,91 @@
+/* *{
+   margin:0;
+   user-select: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   font-family: Georgia, sans-serif;
+} */
+/* We're working with the body tag, and so with the WHOLE page */
+body
+{
+    background-color: black; /* The page background will be black */
+    color: white; /* The page text will be white */
+    font-family: Georgia, sans-serif;
+}
+
+canvas{
+   cursor: crosshair;
+   border:black solid 1px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+#clr{
+   cursor:pointer;
+   width:20px;
+   height:20px;
+   /* float:left; */
+}
+
+#nn_can {
+  align-self: auto;
+}
+
+#infobar {
+  font-size: 1.2em;
+  width: 100%;
+  height: 64px;
+  background-color: #2c3e50;
+  color: white;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+
+.center {
+  text-align: center;
+  padding:16px 0;
+}
+
+.bg-black {
+  background-color: #222222;
+}
+
+
+.button {
+  background-color: #2c3e50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #222222;
+  color: white;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+
+.button1:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.myRow {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.text-answer {
+  color: white;
+}

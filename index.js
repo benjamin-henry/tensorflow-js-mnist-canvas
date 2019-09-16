@@ -5,12 +5,12 @@ async function loadModel() {
     model = await tf.loadLayersModel('localstorage://my-model');
     model.summary();
     console.log("Model loaded");
-    const optimizer = tf.train.adam();
+    /*const optimizer = tf.train.adam();
     model.compile({
       optimizer: optimizer,
       loss: 'categoricalCrossentropy',
       metrics: ['accuracy'],
-    });
+    });*/
     console.log("Model compiled");
   }catch(error){
     console.log(error);
